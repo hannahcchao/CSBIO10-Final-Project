@@ -10,7 +10,3 @@ col_names <- c("ID", "Diagnosis", "radius", "texture",
 tumor_df <- read.csv("wdbc.data", header = FALSE, col.names = col_names)
 
 write.csv(tumor_df, "BreastCancerWisconsin.csv", row.names = FALSE)
-
-info <- readLines("wdbc.names")
-
-readLines("wdbc.names")
