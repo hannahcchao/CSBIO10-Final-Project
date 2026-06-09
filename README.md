@@ -1,7 +1,7 @@
 # CSBIO10-Final-Project
 Determining Most Impactful Characteristics for Breast Cancer Diagnosis
 
-#### <ins>[FinalProjectProcessData.R](FileProjectProcessData.R)</ins>
+#### <ins>[FinalProjectProcessData.R](FinalProjectProcessData.R)</ins>
 Contains the steps where the data was properly formatted and saved as a csv for downstream analysis
 
 #### <ins>[FinalProjectAnalyzeData_PCA+EffectSizes.R](FinalProjectAnalyzeData_PCA+EffectSizes.R)</ins>
