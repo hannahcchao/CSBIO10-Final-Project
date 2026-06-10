@@ -16,6 +16,9 @@ Contains steps to create the UMAPs, which shows clear clustering between benign 
 #### <ins>[FractalDimension_violinplot.R](FractalDimension_violinplot.R)</ins>
 Contains steps to create the violin plot depicting fractal dimension across each tumor type. It displays that fractal dimension is not an effective indicator of benign versus malignant tumors.
 
+#### <ins>[MoreViolinPlots.R](MoreViolinPlots.R)</ins>
+Contains the code to create the violin plots for concavity and perimeter, which aren't in the presentation slides but were the other two of the three most important features determined through PCA dimension 1. 
+
 #### <ins>[WilcoxonRankSumTest.R](WilcoxonRankSumTest.R)</ins>
 Contains the code to perform Wilcoxon Rank Sum Test on all of the features. The Diagnosis (M vs B) is the grouping labels, while each of the features have numeric values. Used the formula notation to show that the two possible "groups" of the cells are based on the Diagnoses. 
 
