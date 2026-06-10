@@ -78,13 +78,13 @@ wilcox.test(radius ~ Diagnosis, data = tumor_df)
 
 # Plotting violin plot with radius distributions for benign and malignant, along with the p-value for the
 # Wilcoxon test displayed over it
-ggplot(tumor_df, aes(x = Diagnosis, y = radius, fill = Diagnosis)) +
+ggplot(tumor_df, aes(x = Diagnosis, y = concave_points, fill = Diagnosis)) +
   geom_violin(alpha = 0.5) +
   geom_boxplot(width = 0.1, color = "black", outlier.shape = NA, fill = "white", alpha = 0.4) +
   stat_compare_means(comparisons = list(c("B", "M")),
                      label = "p.value",
                      method = "wilcox.test") +
-  labs(y = "Radius") +
+  labs(y = "Concave Points") +
   scale_fill_manual(values = c("#0073C2FF", "#EFC000FF"), labels = c("B" = "Benign", "M" = "Malignant")) +
   theme(legend.position = "none")
 
