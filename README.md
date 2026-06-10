@@ -8,7 +8,7 @@ Contains the steps where the data was properly formatted and saved as a csv for 
 Contains the steps to create the PCA plot, violin plot comparing the distributions of the concave points by diagnosis (with the p-value for the Wilcoxon test), and an effect size chart that compares the Cohen's d values of each dimension.
 
 #### <ins>[tsne.R](tsne.R)</ins>
-Contains steps to create the t-SNE plot, which shows clear clustering between benign and malignant tumors to prove that the recorded features can effectively help differentiate different tumor types.
+Contains steps to create the t-SNE plot, which shows clear clustering between benign and malignant tumors to prove that the recorded features can effectively help differentiate different tumor types. Plot used to compare different visualization techniques.
 
 #### <ins>[PCAtoUMAP.R](PCAtoUMAP.R)</ins>
 Contains stepps to create the UMAPs, which shows clear clustering between benign and malignant tumors, showing that the features differentiate tumor types. Performed this method in order to compare if there is any visible difference in different visualization techniques. 
