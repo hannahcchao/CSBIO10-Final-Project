@@ -1,3 +1,4 @@
+## Fractal Dimension Violin Plot generation - findings: fractal dimension is not a significant indicator of malignant versus benign tumors
 data <- read.csv('~/Downloads/BreastCancerWisconsin.csv')
 library(ggplot2)
 library(ggpubr)
