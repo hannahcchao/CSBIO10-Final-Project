@@ -85,7 +85,7 @@ ggplot(tumor_df, aes(x = Diagnosis, y = concave_points, fill = Diagnosis)) +
                      label = "p.value",
                      method = "wilcox.test") +
   labs(y = "Concave Points") +
-  scale_fill_manual(values = c("#0073C2FF", "#EFC000FF"), labels = c("B" = "Benign", "M" = "Malignant")) +
+  scale_fill_manual(values = c("B" = "#0073C2FF", "M" = "#EFC000FF")) +
   theme(legend.position = "none")
 
 #######################################################################################################
