@@ -10,5 +10,10 @@ Contains the steps to create the PCA plot, violin plot comparing the distributio
 #### <ins>[tsne.R](tsne.R)</ins>
 Contains steps to create the t-SNE plot, which shows clear clustering between benign and malignant tumors to prove that the recorded features can effectively help differentiate different tumor types.
 
+#### <ins>[PCAtoUMAP.R](PCAtoUMAP.R)</ins>
+Contains stepps to create the UMAPs, which shows clear clustering between benign and malignant tumors, showing that the features differentiate tumor types. Performed this method in order to compare if there is any visible difference in different visualization techniques. 
+
 #### <ins>[FractalDimension_violinplot.R](FractalDimension_violinplot.R)</ins>
 Contains steps to create the violin plot depicting fractal dimension across each tumor type. It displays that fractal dimension is not an effective indicator of benign versus malignant tumors.
+
+
